@@ -1,0 +1,290 @@
+     Ramrao Adik Institute of Technology
+         Department of Computer Engineering
+       TE Project Mock 1 Presentation
+                   On
+   “Smart Crop Recommendation System”
+                   By
+Roll No. 22CE1065                   Prathamesh
+Avhad
+Roll No. 22CE1071                   Omkar Belote
+Roll No. 22CE1118                   Harsh Bhoi
+Roll No. 22CE1085                   Gunjankumar
+                    Guided by
+Choudhari
+                Mrs. Rupali S. Kale
+Outline
+
+ Introduction
+
+ Literature Survey of the existing systems
+
+ Limitations of the existing systems
+
+ Problem statement
+
+ System Design
+
+ Technologies and methodologies
+
+ Conclusion
+
+ References
+
+
+
+    SE Mini Project Mock Presentation
+Introduction
+
+
+•   Significance of Agriculture: Agriculture is a vital occupation in India,
+    particularly in rural areas.
+
+•   importance of Crop Selection: Crop selection is crucial for agricultural growth
+    and depends on various factors like climate, geography, and finances.
+
+•    Challenges for Farmers: Farmers face difficulties in deciding the right crop,
+    time, and place due to unpredictable climatic conditions and lack of knowledge
+    about soil nutrients (nitrogen, phosphorus, potassium).
+
+•   Solution: A machine learning-based system was designed to assist farmers in
+    making informed crop choices for better agricultural outcomes.
+
+
+
+
+     SE Mini Project Mock Presentation
+Introduction
+•   Crop Recommendation: Suggests the best crop based on land-specific factors.
+
+•   Data Sources: Uses weather and soil data (Rainfall, Temperature, Humidity, pH)
+    from Kaggle.
+
+•   Machine Learning: Employs algorithms like Random Forest Classifier to
+    provide accurate crop recommendations.
+
+MOTIVATION
+
+•   Challenges in Agriculture: Farmers struggle with unpredictable weather and
+    limited soil health knowledge.
+
+• Crop Recommendation System: Uses machine learning to suggest the best
+    crops based on soil and weather conditions.
+
+•   Impact: Aims to improve crop yield, reduce financial risks, and promote
+    sustainable farming for economic well-being.
+
+     SE Mini Project Mock Presentation
+Introduction
+
+OBJECTIVE
+
+•   Contributing to optimal crop growth, development and yield.
+•   Predict appropriate crop from given temperature and rainfall and soil.
+•   To reduce the financial losses faced by the farmers caused by planting the wrong
+    crops.
+•   Also to help the farmers to find new types of crops that can be cultivated in their
+    area. So, to make every farmer rich by farm and wealth we producing this System.
+
+
+
+
+     SE Mini Project Mock Presentation
+Literature Survey of the existing systems
+
+
+ • Survey of Existing Solutions in the Real World:
+ Traditional Farming Methods: Many farmers rely on traditional knowledge and
+ past experiences to select crops. This approach lacks precision and can lead to
+ suboptimal crop choices.
+ Government-Provided Advisory Services: Some governments offer agricultural
+ advisory services, providing recommendations based on historical data and broad
+ regional studies.
+
+ Analysis of Issues in the Surveyed Solutions:
+ Limited Data Integration: Most platforms focus on either weather data or soil
+ health, but not both, which limits the accuracy of predictions.
+ Accessibility and Usability: Existing solutions may be difficult for farmers to access
+ or use, especially those without advanced technical skills.
+
+
+
+
+     SE Mini Project Mock Presentation
+Literature Survey of the existing systems
+
+
+•   Cost: Commercial platforms often require subscriptions, which may be
+    prohibitive for small-scale farmers.
+
+• Survey of Users and Their Requirements:
+Small and Marginal Farmers: They require a cost-effective, easy-to-use solution
+that provides precise crop recommendations based on local conditions. They expect
+the system to help them maximize yield and income while minimizing risks.
+Agricultural Advisors: They require a tool that supports their advisory roles,
+offering detailed, data-driven recommendations that can be tailored to the needs of
+individual clients.
+
+
+
+
+     SE Mini Project Mock Presentation
+Limitations of existing systems
+
+
+•   Generalized Recommendations: Existing systems often provide broad, non-
+    specific crop recommendations that fail to account for the unique conditions of
+    individual farms.
+
+•   Limited Data Integration: Many systems do not effectively integrate both soil
+    health and weather data, reducing the accuracy of crop predictions.
+
+•   Usability Issues: Complex interfaces and lack of accessibility hinder adoption,
+    especially among small-scale farmers.
+
+•   Cost Barriers: High subscription fees or one-time costs make these solutions
+    inaccessible for many farmers.
+.
+
+
+
+
+     SE Mini Project Mock Presentation
+Problem statement
+
+
+•   Problem Statement: In agriculture, selecting the most suitable crop for a
+    particular region is crucial for maximizing yield and minimizing risks. Factors
+    such as climate, soil type, water availability, pests, and diseases significantly
+    influence crop growth and productivity. Traditional methods of crop selection
+    often involve relying on farmers' experience and local knowledge, which can be
+    subjective and limited.
+
+• The key issues to be addressed by our Crop Recommendation System are:
+Lack of Personalization: Current solutions provide generalized recommendations
+that do not account for the specific conditions of individual farms, such as local soil
+nutrient content and microclimatic conditions.
+Economic Impact: Farmers often face financial losses due to the incorrect selection
+of crops that are not suited to their land’s specific conditions. This also hinders the
+economic development of rural communities.
+
+
+
+     SE Mini Project Mock Presentation
+System Design
+
+•   The system architecture is divided into several interconnected modules, each
+    responsible for a specific function. Below is the diagram representing the overall
+    architecture:
+
+
+
+
+     SE Mini Project Mock Presentation
+System Design
+
+Collection of Data : The collection of data is extremely important in machine
+learning. In order for a machine learning model to be effective, it needs to be trained
+on a large and diverse dataset. If the data is of poor quality or is not representative of
+the problem the model is trying to solve, the model may not be able to make accurate
+predictions. so we collect data from various places such as government websites and
+Kaggle.
+Data Preprocessing: After collecting datasets from various resources. Dataset must
+be preprocessing before training to the model. The data preprocessing
+can be done by various stages, begins with reading the collected dataset the process
+continues to data cleaning. In data cleaning the datasets contain some redundant
+attributes, those attributes are not considering for crop prediction. So, we have to
+drop unwanted attributes and datasets containing some missing values we need to
+drop these missing values or fill with unwanted nan values in order to get better
+accuracy.
+
+
+
+
+     SE Mini Project Mock Presentation
+System Design
+
+Machine Learning Algorithm for Prediction:
+Decision Tree:
+a modeled decision tree is very efficient for prediction purposes
+
+
+
+
+     SE Mini Project Mock Presentation
+System Design
+
+Random Forest classifier
+It is an ensemble method of learning that is commonly used for both
+classification and regression. In order to train the model to perform
+prediction using this algorithm, the test features must be passed
+through the rules of each randomly created tree. As a result of this, a
+different target will be predicted by each random forest for the same
+test feature
+
+
+
+
+    SE Mini Project Mock Presentation
+System Design
+
+
+
+
+                                        Working of Random Forest
+
+
+
+
+    SE Mini Project Mock Presentation
+Technologies and methodologies
+
+
+•   Technologies Used Python: Programming language used for model
+    development, data preprocessing, and web application development. Scikit-
+    learn: Machine learning library used for model training, evaluation, and
+    prediction. Pandas: Data manipulation library used for data preprocessing and
+    analysis. NumPy: Library for numerical computing used for handling arrays
+    and mathematical operations. Flask: Web framework used for building the
+    user interface and handling HTTP requests. HTML/CSS: Markup and styling
+    languages used for designing the web interface. JavaScript: Scripting
+    language used for client-side interactions and enhancing the user interface.
+
+
+
+
+     SE Mini Project Mock Presentation
+Conclusion
+
+
+•   Presently our farmers are not effectively using technology and analysis, so
+    there may be a chance of wrong selection of crop for cultivation that will
+    reduce their income.
+•   To reduce those type of loses we have developed a farmer friendly system
+    with GUI, that will predict which would be the best suitable crop for
+    particular land. So, this makes the farmers to take right decision in
+    selecting the crop for cultivation such that agricultural sector will
+    be developed by innovative idea.
+
+
+
+
+     SE Mini Project Mock Presentation
+References
+
+
+•   https://www.irejournals.com/formatedpaper/1704207.pdf
+•   https://ijsrcseit.com/paper/CSEIT2173129.pdf
+•   https://www.academia.edu/66093631/AgroSys_A_Crop_Recommendation_System
+•   https://www.scribd.com/document/601287230/CROP-PREDICTION-SYSTEM-
+    FINAL-REPORT-1
+•   https://ieeexplore.ieee.org/abstract/document/9418375?casa_token=7upQbDHlmJ0
+    AAAAA:XkDXZftJUjAwTQtJ4hNX-ZC-IIYj0R-
+    Rkcg9OtRyDIMzao8A4DnkiXt3843sluVyZ_z7L5waqHihDw
+•   https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
+
+
+
+
+     SE Mini Project Mock Presentation
+Thank You
+

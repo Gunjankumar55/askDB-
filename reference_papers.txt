@@ -1,0 +1,99 @@
+Relevant Research Papers for Text-to-SQL Project
+
+1. "Bridging the Semantic Gap: Automated SQL Query Generation from Natural Language"
+IEEE 2024
+Key Points:
+- Natural language processing for SQL query generation
+- Schema understanding and mapping
+- Query optimization techniques
+- Error handling and validation
+URL: https://ieeexplore.ieee.org/document/10520347
+
+2. "Natural Language Query to SQL Conversion Using Machine Learning"
+IEEE 2022
+Key Points:
+- Machine learning approaches for query conversion
+- Performance comparison of different models
+- Implementation challenges and solutions
+- Real-world application cases
+URL: https://ieeexplore.ieee.org/document/9732586
+
+3. "Modern Text-to-SQL Semantic Parsing Methodologies"
+IEEE 2023
+Key Points:
+- Recent developments in NLIDB (Natural Language Interface to Database)
+- Different text-to-SQL approaches
+- Performance evaluation metrics
+- Future research directions
+URL: https://ieeexplore.ieee.org/document/10067134
+
+4. "MCTS-SQL: An Effective Framework for Text-to-SQL"
+arXiv 2024
+Key Points:
+- Large Language Model integration
+- Monte Carlo Tree Search for query optimization
+- Complex query handling
+- Performance improvements
+URL: https://arxiv.org/abs/2501.16607
+
+5. "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task"
+EMNLP 2018
+Key Points:
+- Benchmark dataset for Text-to-SQL
+- Complex query evaluation
+- Cross-domain applications
+- Evaluation metrics
+URL: https://arxiv.org/abs/1809.08887
+
+6. "Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation"
+ACL 2019
+Key Points:
+- Intermediate representation for query conversion
+- Cross-domain adaptation
+- Complex query handling
+- Error recovery mechanisms
+URL: https://arxiv.org/abs/1905.08205
+
+Similar Projects and Implementations:
+
+1. "Natural Language to SQL Query Tool Using GPT-3"
+GitHub Project
+- Uses OpenAI's GPT-3 for query conversion
+- Web-based interface
+- Multiple database support
+URL: https://github.com/search?q=nl2sql+gpt
+
+2. "Text2SQL: An Open-Source Natural Language to SQL Converter"
+Research Implementation
+- Python-based implementation
+- Support for multiple database schemas
+- Comprehensive error handling
+- User interface components
+
+Key Differences from Our Project:
+
+1. AI Model:
+   - Most projects use GPT-3 or BERT
+   - Our project uses Google's Gemini AI
+   - Better context understanding
+   - More efficient query generation
+
+2. Architecture:
+   - Many projects use complex intermediate representations
+   - Our approach is more direct and efficient
+   - Better error handling and user feedback
+   - Simpler integration with existing databases
+
+3. User Interface:
+   - Most projects have basic command-line interfaces
+   - Our project has a modern web interface
+   - Better error messaging
+   - More intuitive interaction
+
+4. Performance:
+   - Our system includes query optimization
+   - Better handling of complex queries
+   - More efficient database operations
+   - Improved response times
+
+These references provide a solid foundation for understanding the current state of Text-to-SQL technology and highlight the unique aspects of our implementation.
